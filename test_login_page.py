@@ -1,5 +1,4 @@
 from .pages.login_page import LoginPage
-
 from selenium.webdriver.common.by import By
 
 def test_guest_should_be_login_url(browser):
