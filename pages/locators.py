@@ -15,3 +15,5 @@ class ProductPageLocators():
 
     ALERT_NAME_OF_PRODUCT = (By.CSS_SELECTOR, ".alert:nth-child(1) strong")
     ALERT_PRICE_OF_PRODUCT = (By.CSS_SELECTOR, ".alert-info strong")
+
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages div:first-child")
